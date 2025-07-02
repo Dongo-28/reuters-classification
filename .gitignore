@@ -1,0 +1,30 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Ficheiros temporários / cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ficheiros do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dados temporários
+*.npz
+*.h5
+*.hdf5
+
+# Ficheiros do sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ficheiros do TensorFlow/Keras (cache)
+.keras/
